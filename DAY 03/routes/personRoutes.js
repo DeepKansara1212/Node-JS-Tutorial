@@ -1,6 +1,7 @@
 const express = require('express')
 const router = express.Router()
 
+// Import person from the models folder
 const Person = require('../models/person') 
 
 // POST route to add a person
